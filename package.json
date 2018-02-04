@@ -1,0 +1,16 @@
+{
+    "name": "buccaneer",
+    "description": "An additional set of styles built on top of the Bootstrap web framework.",
+    "version": "0.0.0",
+    "keywords": [
+        "css",
+        "sass",
+        "mobile-first",
+        "responsive",
+        "front-end",
+        "framework",
+        "web"
+    ],
+    "homepage": "https://github.com/dascentral/buccaneer",
+    "author": "Douglas A. Smith <douglas@dascentral.com>"
+}

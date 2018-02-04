@@ -1,0 +1,24 @@
+/*============================== Buccaneer ==============================*/
+
+.page-header {
+    margin: 0;
+    padding: 25px 15px;
+    background-color: $page-header-bg;
+    border-bottom: 1px solid darken($page-header-bg, 20%);
+
+    h1 {
+        margin: 0;
+        font-size: 2.5rem;
+        color: $page-header-color;
+    }
+
+    .with-buttons {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .form-group {
+            margin: 0;
+        }
+    }
+}

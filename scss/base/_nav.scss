@@ -1,0 +1,8 @@
+/*============================== Buccaneer ==============================*/
+
+// Rather than create a custom "bg-NAME" class, I will directly style the navbar
+header > nav.navbar {
+    background-color: $navbar-bg;
+    border-bottom: $navbar-border-width solid $navbar-border-color;
+    min-height: $navbar-height;
+}
