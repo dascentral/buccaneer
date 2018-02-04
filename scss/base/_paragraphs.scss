@@ -1,0 +1,23 @@
+/*============================== Buccaneer ==============================*/
+
+.table + p {
+	padding-top: 10px;
+}
+
+article p:last-child, section p:last-child {
+    margin-bottom: 0;
+}
+
+.errors {
+    p {
+        margin: 0;
+    }
+
+    ul {
+        margin-bottom: 0.25rem;
+    }
+}
+
+.errors.expanded p {
+    margin-bottom: 0.5rem;
+}

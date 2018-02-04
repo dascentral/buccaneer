@@ -1,0 +1,51 @@
+/*============================== Buccaneer ==============================*/
+
+.clickable tbody tr, .sortable th {
+    cursor: pointer;
+}
+
+.with-buttons {
+    & > tbody > tr > td {
+        vertical-align: middle;
+    }
+}
+
+// Legacy styles that I have deprecated. Instead, use "text-center" utility class.
+// table {
+//     .abbreviation, .boolean, .date, .numeric {
+//         text-align: center;
+//     }
+// }
+
+tfoot td {
+    font-weight: bold;
+}
+
+.table-horizontal {
+    margin-bottom: 20px;
+
+    th {
+        padding: 7px 30px 7px 2px;
+        text-align: right;
+    }
+
+    td {
+        padding: 7px 0;
+    }
+
+    tr:first-child {
+        th, td {
+            padding-top: 0;
+        }
+    }
+
+    tr:last-child {
+        th, td {
+            padding-bottom: 0;
+        }
+    }
+}
+
+article > table:last-child, section > table:last-child {
+    margin-bottom: 0;
+}

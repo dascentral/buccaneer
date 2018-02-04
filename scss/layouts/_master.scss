@@ -1,0 +1,13 @@
+/*============================== Buccaneer ==============================*/
+
+body.master {
+    background-color: $body-master-bg;
+
+    #app > #main {
+        padding: 30px 15px 5px;
+
+        @include media-breakpoint-up(md) {
+            padding: 35px 15px 10px;
+        }
+    }
+}

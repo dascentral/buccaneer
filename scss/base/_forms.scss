@@ -1,0 +1,79 @@
+/*============================== Buccaneer ==============================*/
+
+.form-group {
+    &.submit {
+        padding-top: 10px;
+
+        .cancel {
+            margin-left: 3px;
+        }
+    }
+}
+
+.remember-submit {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 25px;
+
+    .form-check-label {
+        font-size: 0.75rem;
+        color: #000;
+    }
+
+    .form-group {
+        margin: 0;
+
+        &.submit {
+            padding: 0;
+        }
+    }
+}
+
+.birthday {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    select {
+        &:first-child {
+            width: 72%
+        }
+
+        &:last-child {
+            width: 25%
+        }
+    }
+}
+
+
+/*
+|--------------------------------------------------------------------------
+| Form Validation
+|--------------------------------------------------------------------------
+|
+| I must be missing something because the approach for styling validation
+| of forms in Bootstrap 4 seems to be a step backward from Boostrap 3
+| from a server-side perspective. They push hard for the use of JS
+| so I am largely recreating what they used to do here. "invalid"
+| is a custom class that I have created
+|
+*/
+// .form-group.invalid {
+//     label {
+//         color: $red;
+//     }
+
+//     .form-control {
+//         border-color: $red;
+
+//         &:focus {
+//             box-shadow: 0 0 0 0.2rem rgba($red, 0.25);
+//             // box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.25);
+//         }
+//     }
+
+//     .invalid-feedback {
+//         display: block;
+//     }
+// }
