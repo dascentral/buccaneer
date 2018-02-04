@@ -1,7 +1,7 @@
 {
     "name": "buccaneer",
     "description": "An additional set of styles built on top of the Bootstrap web framework.",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "keywords": [
         "css",
         "sass",
