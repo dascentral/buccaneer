@@ -30,6 +30,10 @@ body.auth {
             @include media-breakpoint-up(sm) {
                 padding: 20px 10px;
             }
+
+            section {
+                margin: 0;
+            }
         }
     }
 }
