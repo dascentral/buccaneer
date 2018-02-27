@@ -4,4 +4,8 @@ section {
     margin-bottom: 30px;
     padding: 25px 30px;
     background: $module-bg;
+
+    &.clickable {
+        cursor: pointer;
+    }
 }
