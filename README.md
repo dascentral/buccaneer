@@ -1,5 +1,7 @@
 # Buccaneer
 
+This repository has been archived! I have moved on from Sass and Bootstrap in favor of [Tailwind CSS](https://tailwindcss.com).
+
 ## Introduction
 
 This repository represents my efforts to bootstrap the [Bootstrap](https://getbootstrap.com) framework. It provides an additional set of styles and utilities that I leverage within the web applications that I build.
